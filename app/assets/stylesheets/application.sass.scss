@@ -19,21 +19,34 @@ body {
     overflow: hidden;
 }
 
-#btn {
+.btn {
     color: white;
     background-color: transparent;
     border-radius: 50px;
     border: 1px solid;
     border-color: rgba(255, 255, 255, 0.2);
     padding: 15px 25px;
-    position: relative;
-
-}
-
-#btn:hover {
-    border-color: rgba(255, 255, 255, 1);
     cursor: pointer;
+    text-decoration: none;
 }
+
+.btn:hover {
+    border-color: rgba(255, 255, 255, 1);
+}
+
+#back-btn {
+    position: absolute;
+    top: 30px;
+    left: 25px; 
+    font: 800 15px system-ui;
+    color: rgba(255, 255, 255, 0.2);
+}
+
+#back-btn:hover {
+    color:rgba(255, 255, 255, 1);
+}
+
+
 
 #btn-wrapper {
     width: 100%;

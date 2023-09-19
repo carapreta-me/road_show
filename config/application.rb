@@ -33,7 +33,7 @@ module RoadShow
 
     # Don't generate system test files.
     config.generators.system_tests = nil
-    config.hosts << "a92d-2804-14d-5c20-893b-da5a-b3ad-8eb2-d774.ngrok-free.app"
+    config.hosts << "roadshow.fly.dev"
   
   end
 end

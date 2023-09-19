@@ -1,0 +1,53 @@
+@import url('https://www.coca-cola.com.br/assets/vendor/@coca/fonts/tccc-unity-headline/TCCCUnityHeadlineBold.woff2?v=99717bf68408f53191ea126f63ad8b10');
+@import url('https://www.coca-cola.com.br/assets/vendor/@coca/fonts/tccc-unity-headline/TCCCUnityHeadlineRegular.woff2?v=814e44a8fd6d608a1a16f064b227ceba');
+
+div {
+    font: 800 20px system-ui;
+}
+
+body {
+    background-color: black;
+    background-image: url('https://roadshowcocacolabrasil.com.br/wp-content/uploads/2023/09/rodape.svg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#btn {
+    color: white;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 0.2);
+    padding: 15px 25px;
+    position: relative;
+
+}
+
+#btn:hover {
+    border-color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+#btn-wrapper {
+    width: 100%;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#value {
+    width: 400px;
+    text-align: center;
+    font: 800 180px "TCCC Unity Headline Regular";
+    color: white;
+}

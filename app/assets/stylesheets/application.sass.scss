@@ -7,9 +7,9 @@ div {
 
 body {
     background-color: black;
-    background-image: url('https://roadshowcocacolabrasil.com.br/wp-content/uploads/2023/09/rodape.svg');
+    background-image: url('listras.png');
     background-position: bottom center;
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -19,9 +19,16 @@ body {
     overflow: hidden;
 }
 
+#bottles {
+    position: absolute;
+    bottom: 20px;
+    right: 70px;
+    background-color: transparent;
+}
+
 .btn {
     color: white;
-    background-color: transparent;
+    
     border-radius: 50px;
     border: 1px solid;
     border-color: rgba(255, 255, 255, 0.2);
@@ -46,7 +53,9 @@ body {
     color:rgba(255, 255, 255, 1);
 }
 
-
+#wrapper {
+    padding-bottom: 100px;
+}
 
 #btn-wrapper {
     width: 100%;
@@ -61,6 +70,6 @@ body {
 #value {
     width: 400px;
     text-align: center;
-    font: 800 180px "TCCC Unity Headline Regular";
+    font: 800 230px "TCCC Unity Headline Regular";
     color: white;
 }

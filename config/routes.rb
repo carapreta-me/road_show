@@ -6,4 +6,6 @@ Rails.application.routes.draw do
   get 'sp', to: 'home#sp'
   get 'rj', to: 'home#rj'
   get 'ce', to: 'home#ce'
+  get 'coca', to: 'home#coca'
+  get 'mequi', to: 'home#mequi'
 end

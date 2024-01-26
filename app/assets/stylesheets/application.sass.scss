@@ -34,18 +34,21 @@ body {
 }
 
 .btn {
-    color: white;
+    // color: white;
+    color: #dd0d1d;
     
     border-radius: 50px;
     border: 1px solid;
-    border-color: rgba(255, 255, 255, 0.2);
+    // border-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(221, 13, 29, 0.2);
     padding: 15px 25px;
     cursor: pointer;
     text-decoration: none;
 }
 
 .btn:hover {
-    border-color: rgba(255, 255, 255, 1);
+    // border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(221, 13, 29, 1);
 }
 
 #back-btn {

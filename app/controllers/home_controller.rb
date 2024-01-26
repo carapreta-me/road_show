@@ -2,7 +2,7 @@
 
 class HomeController < ApplicationController
     def index
-        redirect_to '/coca'
+        redirect_to '/mequi'
     end
     def sp
         missing = [7, 9, 10, 13, 14, 15, 16, 25, 28, 31, 32, 33, 35, 36, 38, 39, 40, 54, 55, 57, 67, 72, 74, 80, 84, 91, 92, 94, 98, 99, 101, 105]
@@ -19,6 +19,10 @@ class HomeController < ApplicationController
     def coca
         missing = [1, 7, 11, 14, 19, 37, 55, 58, 66, 68, 97, 109, 120, 135, 137, 139, 140, 108]
         @ary = (1..140).to_a - missing
+    end
+    def mequi
+        missing = []
+        @ary = (1..60).to_a - missing
     end
 end
 

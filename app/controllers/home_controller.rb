@@ -21,7 +21,7 @@ class HomeController < ApplicationController
         @ary = (1..140).to_a - missing
     end
     def mequi
-        missing = []
+        missing = [1, 2, 4, 6, 11, 13, 15, 19, 21, 25, 31, 37, 38, 39]
         @ary = (1..40).to_a - missing
     end
 end

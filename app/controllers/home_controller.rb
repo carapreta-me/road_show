@@ -18,7 +18,7 @@ class HomeController < ApplicationController
     end
     def coca
         missing = []
-        @ary = (1..100).to_a - missing
+        @ary = (1..75).to_a - missing
     end
     def mequi
         missing = [1, 2, 4, 6, 11, 13, 15, 19, 21, 25, 31, 37, 38, 39]

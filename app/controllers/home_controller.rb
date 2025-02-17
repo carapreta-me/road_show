@@ -2,7 +2,7 @@
 
 class HomeController < ApplicationController
   def index
-    redirect_to "/coca"
+    redirect_to "/mequi"
   end
 
   def sp
@@ -26,7 +26,7 @@ class HomeController < ApplicationController
   end
 
   def mequi
-    missing = [1, 2, 4, 6, 11, 13, 15, 19, 21, 25, 31, 37, 38, 39]
-    @ary = (1..40).to_a - missing
+    missing = [30, 35, 39, 45, 52, 54, 57, 63]
+    @ary = (28..68).to_a - missing
   end
 end

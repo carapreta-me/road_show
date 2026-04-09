@@ -14,14 +14,9 @@ animateValue(obj, ary, ary_size, Math.floor(Math.random() * 1000 + 2000));">sort
 function animateValue(obj, ary, ary_size,duration) {
 
     if (drawed_index !== null) {
-      console.log(drawed_index);
-      console.log(ary);
       ary.splice(drawed_index, 1);
-      console.log('deleted ' + drawed_index)
-      console.log(ary)
       ary_size = ary.length;
     }
-    console.log('ary_size out: ' + ary_size);
     let startTimestamp = null;
     const step = (timestamp) => {
         ary_size = ary.length;

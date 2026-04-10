@@ -26,7 +26,7 @@ class HomeController < ApplicationController
   end
 
   def mequi
-    missing = [30, 35, 39, 45, 52, 54, 57, 63]
-    @ary = (1..60).to_a.sample(13) # - missing
+    missing = []
+    @ary = (1..25).to_a - missing
   end
 end
